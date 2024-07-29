@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T17:27:02.425Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="xjuRWe_trJQJlvE-Fu85" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-29T16:48:42.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="orug6c30ZT7FYEPfDE4e" version="24.7.1" type="github">
   <diagram name="Page-1" id="4KZJ9ozn9lXyR2gkDZFs">
-    <mxGraphModel dx="1260" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1764" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,12 +19,12 @@
         <mxCell id="9xcHes1UZk4AMDX8wHXI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;" parent="1" source="9xcHes1UZk4AMDX8wHXI-8" target="9xcHes1UZk4AMDX8wHXI-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-8" value="Content Adapter" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-8" value="ContentAdapter" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="160" width="280" height="290" as="geometry">
             <mxRectangle x="420" y="170" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-9" value="&lt;div align=&quot;left&quot;&gt;+ create_delivery(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ update_delivery(): Exception&lt;div align=&quot;left&quot;&gt;+ get_delivery(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_deliveries(): Exception&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_deliveries(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_deliveries(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_deliveries(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_delivery(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; create_order(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_orders(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_dispatch(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order(): Exception&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-8" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-9" value="&lt;div align=&quot;left&quot;&gt;+ create_dispatch(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ update_dispatch(): Exception&lt;div align=&quot;left&quot;&gt;+ get_dispatch(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_dispatches(): Exception&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_dispatches(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_dispatches(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_dispatches(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_dispatch(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-8" vertex="1">
           <mxGeometry x="10" y="80" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;endSize=4;startSize=0;" parent="1" target="9xcHes1UZk4AMDX8wHXI-19" edge="1">
@@ -38,22 +38,30 @@
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-209" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9xcHes1UZk4AMDX8wHXI-205" vertex="1" connectable="0">
           <mxGeometry x="-0.3619" relative="1" as="geometry">
-            <mxPoint x="18" y="-15" as="offset" />
+            <mxPoint x="25" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-16" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IRequest&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-16" value="&lt;div&gt;RestAdapter&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="840" y="160" width="310" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-17" value="&lt;div align=&quot;left&quot;&gt;+ create_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ update_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_deliveries_subscription: Exception&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_deliveries_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_deliveries_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_deliveries_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; create_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_orders_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_dispatch_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; dispatch_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_subscription: Exception&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-16" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-17" value="&lt;div align=&quot;left&quot;&gt;+ create_dispatch_subscription: dict&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ update_dispatch_subscription: dict&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_dispatch_subscription: dict&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_dispatches_subscription: list&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_dispatches_subscription: list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_dispatches_subscription:list&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_dispatches_subscription: list&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_dispatch_subscription: dict&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-16" vertex="1">
           <mxGeometry x="-20" y="190" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.146;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="9xcHes1UZk4AMDX8wHXI-16" source="9xcHes1UZk4AMDX8wHXI-37" target="9xcHes1UZk4AMDX8wHXI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-116" value="Create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-110">
+          <mxGeometry x="0.3967" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-19" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IRest&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="1240" y="220" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-22" value="&lt;div align=&quot;left&quot;&gt;+ restRx(dict, kwargs): dict&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ restRx(dict,kwargs): dict&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-19" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-22" value="&lt;div align=&quot;left&quot;&gt;+ restRx(dict, kwargs): dict&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ restTx(dict,kwargs): dict&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-19" vertex="1">
           <mxGeometry x="5" y="50" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="1" source="9xcHes1UZk4AMDX8wHXI-8" target="9xcHes1UZk4AMDX8wHXI-19" edge="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;" parent="1" source="9xcHes1UZk4AMDX8wHXI-8" target="9xcHes1UZk4AMDX8wHXI-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="610" y="110" />
@@ -66,22 +74,7 @@
             <mxPoint x="-84" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1" target="9xcHes1UZk4AMDX8wHXI-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1230" y="460" as="sourcePoint" />
-            <mxPoint x="560" y="450.26000000000005" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1230" y="467" />
-              <mxPoint x="615" y="467" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-53" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9xcHes1UZk4AMDX8wHXI-51" vertex="1" connectable="0">
-          <mxGeometry x="0.8461" y="-5" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="340" as="targetPoint" />
             <mxPoint x="1287.5" y="400" as="sourcePoint" />
@@ -98,13 +91,13 @@
         <mxCell id="9xcHes1UZk4AMDX8wHXI-37" value="&lt;div&gt;UsecaseFactory&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="1230" y="400" width="245" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-38" value="&lt;div align=&quot;left&quot;&gt;+ create_request(): RestAdapter&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ create_deliveryManager(): Exception&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-37" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-38" value="&lt;div align=&quot;left&quot;&gt;+ create_request(): RestAdapter&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ create_dispatchManager(): Exception&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-37" vertex="1">
           <mxGeometry x="5" y="40" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-43" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IAdapterFactory&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="250" y="230" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-44" value="&lt;div align=&quot;left&quot;&gt;+ create_delivery_entity()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-43" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-44" value="&lt;div align=&quot;left&quot;&gt;+ create_dispatch_entity()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-43" vertex="1">
           <mxGeometry x="5" y="50" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" parent="1" source="9xcHes1UZk4AMDX8wHXI-45" target="9xcHes1UZk4AMDX8wHXI-43" edge="1">
@@ -115,12 +108,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="9xcHes1UZk4AMDX8wHXI-45" target="9xcHes1UZk4AMDX8wHXI-166">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="9xcHes1UZk4AMDX8wHXI-45" target="9xcHes1UZk4AMDX8wHXI-166">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="1662.857142857143" as="targetPoint" />
+            <mxPoint x="140" y="1347.92" as="targetPoint" />
+            <mxPoint x="250" y="479.9969230769231" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="30" y="455" />
-              <mxPoint x="30" y="1660" />
+              <mxPoint x="30" y="479.92" />
+              <mxPoint x="30" y="1347.92" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,8 +126,8 @@
         <mxCell id="9xcHes1UZk4AMDX8wHXI-45" value="&lt;div&gt;AdapterFactory&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="250" y="410" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-46" value="&lt;div align=&quot;left&quot;&gt;+ create_delivery_entity()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-45" vertex="1">
-          <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-46" value="&lt;div align=&quot;left&quot;&gt;+ create_dispatch_entity()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-45" vertex="1">
+          <mxGeometry x="10" y="50" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="660" width="1450" height="860" as="geometry" />
@@ -144,16 +138,16 @@
         <mxCell id="9xcHes1UZk4AMDX8wHXI-60" value="Usecase Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="1090" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-61" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IDelivery&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-61" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IDispatch&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="450" y="750" width="270" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-62" value="&lt;div align=&quot;left&quot;&gt;+ Create_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ update_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_deliveries_callback(): Exception&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-61" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-62" value="&lt;div align=&quot;left&quot;&gt;+ Create_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ update_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_dispatches_callback(): Exception&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-61" vertex="1">
           <mxGeometry x="5" y="150" width="265" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-150" value="&lt;div&gt;UsecaseFactory&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-150" value="&lt;div&gt;IUsecaseFactory&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="1330" y="790" width="245" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-151" value="&lt;div align=&quot;left&quot;&gt;+ create_request(): RestAdapter&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ create_deliveryManager(): Exception&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-150" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-151" value="&lt;div align=&quot;left&quot;&gt;+ create_request(): RestAdapter&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ create_dispatchManager(): Exception&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-150" vertex="1">
           <mxGeometry x="5" y="40" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-166" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -165,10 +159,10 @@
         <mxCell id="9xcHes1UZk4AMDX8wHXI-168" value="Entity Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="1715" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-169" value="IDeliveries" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-169" value="IDispatch" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="170" y="1675" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-170" value="+ delivery_entity" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-169" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-170" value="+ dispatch_entity" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-169" vertex="1">
           <mxGeometry x="10" y="40" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" parent="1" source="9xcHes1UZk4AMDX8wHXI-171" target="9xcHes1UZk4AMDX8wHXI-169" edge="1">
@@ -179,13 +173,13 @@
             <mxPoint x="15" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-171" value="Deliveries" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-171" value="Dispatch" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="400" y="1677.5" width="130" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-172" value="+ delivery_entity" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-171" vertex="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-172" value="+ dispatch_entity" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9xcHes1UZk4AMDX8wHXI-171" vertex="1">
           <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;entryX=0.17;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9xcHes1UZk4AMDX8wHXI-2" target="-PNvxuVEAzfp6yEy6_G5-14" edge="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=0.17;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9xcHes1UZk4AMDX8wHXI-2" target="-PNvxuVEAzfp6yEy6_G5-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="795" y="870" as="targetPoint" />
             <Array as="points">
@@ -199,7 +193,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xcHes1UZk4AMDX8wHXI-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="9xcHes1UZk4AMDX8wHXI-2" target="9xcHes1UZk4AMDX8wHXI-37" edge="1">
+        <mxCell id="9xcHes1UZk4AMDX8wHXI-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;" parent="1" source="9xcHes1UZk4AMDX8wHXI-2" target="9xcHes1UZk4AMDX8wHXI-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9xcHes1UZk4AMDX8wHXI-189" value="Create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9xcHes1UZk4AMDX8wHXI-188" vertex="1" connectable="0">
@@ -235,6 +229,20 @@
             <mxPoint y="39" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="-PNvxuVEAzfp6yEy6_G5-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="970" />
+              <mxPoint x="582" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-114" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-113">
+          <mxGeometry x="0.0511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-PNvxuVEAzfp6yEy6_G5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="1030" as="sourcePoint" />
@@ -244,30 +252,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-77" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-72">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-77" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-72">
           <mxGeometry x="0.8155" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-14" value="&lt;div&gt;DeliveryManager&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="730" y="750" width="270" height="290" as="geometry" />
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-14" value="&lt;div&gt;DispatchManager&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="730" y="750" width="280" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-15" value="&lt;div align=&quot;left&quot;&gt;+ Create_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ update_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ get_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_deliveries_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_delivery_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; create_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_orders_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_callback(): Exception&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-14">
-          <mxGeometry x="10" y="190" width="265" height="30" as="geometry" />
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-15" value="&lt;div align=&quot;left&quot;&gt;+ Create_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ update_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ get_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_dispatches_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-14">
+          <mxGeometry x="10" y="180" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-26" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IRequest&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="750" width="290" height="290" as="geometry" />
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-26" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IRequest&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="750" width="320" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-27" value="&lt;div align=&quot;left&quot;&gt;+ create_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ update_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_deliveries_subscription: Exception&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_deliveries_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_deliveries_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_deliveries_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_delivery_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; create_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_orders_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_dispatch_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; dispatch_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_subscription: Exception&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-26">
-          <mxGeometry x="-20" y="190" width="330" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="850" y="1050" as="sourcePoint" />
-            <mxPoint x="1440" y="880" as="targetPoint" />
+            <mxPoint x="910" y="940" as="sourcePoint" />
+            <mxPoint x="1500" y="880" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="1110" />
-              <mxPoint x="1440" y="1110" />
+              <mxPoint x="910" y="1010" />
+              <mxPoint x="1500" y="1010" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -276,13 +281,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1230" y="480" as="sourcePoint" />
-            <mxPoint x="450" y="480.03" as="targetPoint" />
+            <mxPoint x="1230" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="890" y="480" />
-              <mxPoint x="890" y="480" />
+              <mxPoint x="930" y="470" />
+              <mxPoint x="930" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -291,23 +296,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-50" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IOrder&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="170" y="750" width="270" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-51" value="&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; create_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_orders_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_callback(): Exception&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-50">
-          <mxGeometry x="5" y="140" width="265" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="9xcHes1UZk4AMDX8wHXI-9" target="9xcHes1UZk4AMDX8wHXI-61">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;exitX=0.315;exitY=0.524;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9xcHes1UZk4AMDX8wHXI-9" target="9xcHes1UZk4AMDX8wHXI-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="565" y="550" />
-              <mxPoint x="565" y="550" />
+              <mxPoint x="565" y="670" />
+              <mxPoint x="565" y="670" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-PNvxuVEAzfp6yEy6_G5-55" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-54">
           <mxGeometry x="-0.054" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-50" value="&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IOrder&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="170" y="750" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-51" value="&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; create_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_orders_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_dispatch_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; partial_update_order_callback(): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; update_order_callback(): Exception&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-50">
+          <mxGeometry x="5" y="140" width="265" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="940" as="sourcePoint" />
+            <mxPoint x="1230" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="970" />
+              <mxPoint x="1230" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-80" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-79">
+          <mxGeometry x="0.7702" y="-2" relative="1" as="geometry">
+            <mxPoint x="-134" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-PNvxuVEAzfp6yEy6_G5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-PNvxuVEAzfp6yEy6_G5-50">
@@ -320,15 +340,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-57" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-56">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-57" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-56">
           <mxGeometry x="-0.054" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-156" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-58" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-56">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-58" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-56">
           <mxGeometry x="0.7318" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-52" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-27" value="&lt;div align=&quot;left&quot;&gt;+ create_dispatch_subscription(data: dict): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ update_dispatch_subscription(data: dict): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_dispatch_subscription(id: str): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;+ get_all_dispatches_subscription: Exception&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_open_dispatches_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_user_dispatches_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; get_complete_dispatches_subscription: Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp; archive_dispatch_subscription(data: dict): Exception&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="940" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-PNvxuVEAzfp6yEy6_G5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -339,24 +362,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-66" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-65">
+        <mxCell id="-PNvxuVEAzfp6yEy6_G5-66" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="-PNvxuVEAzfp6yEy6_G5-65">
           <mxGeometry x="0.6175" relative="1" as="geometry">
             <mxPoint x="-2" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="940" y="1040" as="sourcePoint" />
-            <mxPoint x="1190" y="1040" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="940" y="1070" />
-              <mxPoint x="1190" y="1070" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-PNvxuVEAzfp6yEy6_G5-80" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PNvxuVEAzfp6yEy6_G5-79">
-          <mxGeometry x="0.7702" y="-2" relative="1" as="geometry">
-            <mxPoint x="-134" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
